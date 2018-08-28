@@ -3,9 +3,13 @@
 // Complete the balancedForest function below.
 function balancedForest($c, $edges) {
 
+  // $c = [0, 1, 1, 2, 3];
+  // $edges = [[1,2], [1,3], [1,4], [4,5]]
   var_dump($c);
   var_dump($edges);
 
+  // dfsをやるのかなぁ...
+  // 動的計画法的なやり方で枝の計算を事前にやる...?
 }
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
